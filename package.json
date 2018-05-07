@@ -18,7 +18,9 @@
     },
     "main": "lib/server.js",
     "scripts": {
-        "test": "make test"
+        "test": "make test",
+        "check": "eslint --ignore-path .gitignore ./lib",
+        "format": "pretty-quick --staged"
     },
     "engines": {
         "node": ">= 10.0.0"
@@ -31,7 +33,11 @@
     },
     "devDependencies": {
         "chai": "^4.1.2",
-        "mocha": "^5.1.1"
+        "eslint": "^4.19.1",
+        "husky": "^0.14.3",
+        "mocha": "^5.1.1",
+        "prettier": "^1.12.1",
+        "pretty-quick": "^1.4.1"
     },
     "bin": {
         "rss-reader": "bin/rss-reader"
