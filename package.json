@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ska80/rss-reader/issues"
   },
-  "homepage": "https://github.com/ska80/rss-reader#readme"
+  "homepage": "https://github.com/ska80/rss-reader#readme",
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
 }
