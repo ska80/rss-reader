@@ -20,7 +20,8 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": "off"
     },
     "parserOptions": {
         "ecmaVersion": 8
