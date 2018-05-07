@@ -1,0 +1,12 @@
+{
+    "http": {
+        "hostname": "127.0.0.1",
+        "port": 8080,
+
+        "tls": {
+            "enabled": false,
+            "cert-file": "test_tls.crt",
+            "key-file": "test_tls.key"
+        }
+    }
+}

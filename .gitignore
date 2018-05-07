@@ -1,5 +1,7 @@
 # ignore files
 
+/config/*.json
+
 .tern-port
 
 # Logs

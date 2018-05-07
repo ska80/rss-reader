@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["http"],
+    "properties": {
+        "http": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["hostname", "port", "tls"],
+            "properties": {
+                "hostname": {
+                    "type": "string",
+                    "anyOf": [{"format": "hostname"}, {"format": "ipv4"}, {"format": "ipv6"}]
+                },
+                "port": {
+                    "type": "integer",
+                    "minimum": 1000,
+                    "maximum": 65535
+                },
+
+                "tls": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["enabled", "cert-file", "key-file"],
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean"
+                        },
+                        "cert-file": {
+                            "type": "string"
+                        },
+                        "key-file": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
