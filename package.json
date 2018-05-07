@@ -1,0 +1,23 @@
+{
+  "name": "rss-reader",
+  "version": "0.0.0",
+  "description": "RSS Reader",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ska80/rss-reader.git"
+  },
+  "keywords": [
+    "rss",
+    "reader"
+  ],
+  "author": "Kamil Shakirov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ska80/rss-reader/issues"
+  },
+  "homepage": "https://github.com/ska80/rss-reader#readme"
+}
