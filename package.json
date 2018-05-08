@@ -9,10 +9,7 @@
         "type": "git",
         "url": "git+https://github.com/ska80/rss-reader.git"
     },
-    "keywords": [
-        "rss",
-        "reader"
-    ],
+    "keywords": ["rss", "reader"],
     "directories": {
         "lib": "./lib"
     },
@@ -38,6 +35,7 @@
         "ajv-cli": "^3.0.0",
         "chai": "^4.1.2",
         "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
         "husky": "^0.14.3",
         "mocha": "^5.1.1",
         "prettier": "^1.12.1",
